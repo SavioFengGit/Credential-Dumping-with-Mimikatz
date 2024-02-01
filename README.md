@@ -1,7 +1,8 @@
 # Credential-Dumping-with-Mimikatz
 Credential Dumping with Mimikatz
 ## Introduction of Mimikatz
-Mimikatz is a free and open source program for Microsoft Windows that can be used to obtain information about login credentials. It was developed by Benjamin Delpy and Mr. Slovtsov. Mimikatz can extract plain text passwords, cryptographic hash functions, PIN codes and Kerberos tickets from memory. It can also perform pass-the-hash, pass-the-ticket, create golden tickets, work on certificates or private and protected keys.
+Mimikatz is a free and open source program for Microsoft Windows that can be used to obtain information about login credentials. It was developed by Benjamin Delpy and Mr. Slovtsov. Mimikatz can extract plain text passwords, cryptographic hash functions, PIN codes and Kerberos tickets from memory. It can also perform pass-the-hash, pass-the-ticket, create golden tickets, work on certificates or private and protected keys.<br>
+<img src="mimi.png" width=70% height="auto"><br><br>
 
 ## Credential dumping with Mimikatz
 ### After obtained an meterpreter sessions, we have to upload in the target machine the file mimikatz.exe
